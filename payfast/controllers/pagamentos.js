@@ -5,7 +5,9 @@ module.exports = function(app){
   });
 
   app.post('/pagamentos/pagamento', function(req, res){
-
+// O MÓDULO ASSERT FORNECE UMA MANEIRA DE TESTAR EXPRESSÕES.
+// SE A EXPRESSÃO FOR AVALIADA COMO 0 OU FALSA,UMA FALHA DE ASSERÇÃO ESTÁ SENDO CAUSADA
+// E O PROGRAMA É TERMINADO.
     req.assert("forma_de_pagamento",
         "Forma de pagamento eh obrigatorio").notEmpty();
     req.assert("valor",
