@@ -1,29 +1,23 @@
 {
   "name": "payfast",
   "version": "1.0.0",
-  "description": "Um Gateway para pagamentos através de recursos HTTP.",
+  "description": "gateway de pagamentos utilizando recursos http.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/VittorioBarella/Projeto_NodeJS_2.git"
-  },
   "keywords": [
+    "api",
     "gateway",
-    "pagamentos",
-    "api"
+    "javascript"
   ],
-  "author": "Vittório Barella",
+  "author": "juliocvidal",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/VittorioBarella/Projeto_NodeJS_2/issues"
-  },
-  "homepage": "https://github.com/VittorioBarella/Projeto_NodeJS_2#readme",
   "dependencies": {
-    "body-parser": "^1.18.3",
-    "consign": "^0.1.6",
-    "express": "^4.16.4"
+    "body-parser": "^1.15.2",
+    "consign": "^0.1.2",
+    "express": "^4.14.0",
+    "express-validator": "^2.20.8",
+    "mysql": "^2.11.1"
   }
 }
